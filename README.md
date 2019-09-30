@@ -1,1 +1,2 @@
-# dastan
+# Usually, JSON contain two types of nodes JSONArray and JSONObject so while parsing we have to use the appropriate method. If JSON starts from square bracket ([) we use getJSONArray() method and if it start from curly bracket ({) then we should use the getJSONObject() method. Apart from these there are some other methods for better parsing JSON data.
+Below is the example of JSON parsing in Android, In this example we parse the data from JSON and then display it in the UI.In this, we have employee name and salary stored in JSON format. Firstly we create two TextView‘s in our XML file and then in our Activity we parse the data using JSONObject methods and set it in the TextView‘s.
